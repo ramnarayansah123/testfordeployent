@@ -39,7 +39,7 @@ export default function Page(): React.ReactElement {
               Purchase diamonds for Mobile Legends: Bang Bang quickly and securely. Best rates guaranteed for MLBB top-ups.
             </p>
             <Link 
-              href="/move"
+              href="/pubg"
               className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
             >
               Top Up MLBB
