@@ -4,7 +4,7 @@ export default function Page(){
     return(
         <>
         <Head>
-            <title>Freefire Topup Center</title>
+            <title>FreeFire TopUp - Safe and Affordable Gaming Currency | FreeFire Topup</title>
             <meta name="description" content="Top up your Free Fire diamonds quickly and securely. Best prices for Free Fire recharge, instant delivery, and secure payment methods available." />
             <meta name="keywords" content="Free Fire topup, Free Fire diamonds, FF diamonds, Free Fire recharge, gaming topup, Garena Free Fire" />
             <meta name="robots" content="index, follow" />
