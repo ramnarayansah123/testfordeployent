@@ -1,21 +1,23 @@
 import { MetadataRoute } from "next";
 
 export default async function Sitemap(): Promise<MetadataRoute.Sitemap> {
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://testfordeployents.vercel.app/';
+    
     return [
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/move`,
+            url: `${baseUrl}/move`,
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.7
         },
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/freefire`,
+            url: `${baseUrl}/freefire`,
             lastModified: new Date(),
             changeFrequency: 'daily', 
             priority: 0.8
         },
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+            url: baseUrl,
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 1.0
